@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="light" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>القوافل - الرابطة</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+</style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": { 
+                DEFAULT: "#046D5E", 
+                light: "#D1FAE5", 
+                dark: "#045C4E"
+              },
+              "secondary": {
+                DEFAULT: "#069584",
+                light: "#E0F2FE",
+                dark: "#057A6B"
+              },
+              "background-light": "#F7FAFC",
+              "background-dark": "#131823",
+              "text-light": "#1A202C",
+              "text-dark": "#E2E8F0"
+            },
+            fontFamily: {
+              "display": ["Tajawal", "Inter", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm sticky top-0 z-50 shadow-md">
+<div class="container mx-auto px-4">
+<div class="flex items-center justify-between whitespace-nowrap py-4">
+<div class="flex items-center gap-4 text-primary dark:text-secondary">
+<div class="size-6">
+<svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2L3 7v10l9 5 9-5V7l-9-5zm0 2.618L19.5 9.5 12 14.382 4.5 9.5 12 4.618zM5 11.91l7 3.889v5.619l-7-3.889v-5.619zm14 0v5.619l-7 3.889v-5.619l7-3.889z"></path>
+</svg>
+</div>
+<h2 class="text-slate-900 dark:text-white text-xl font-bold">الرابطة</h2>
+</div>
+<div class="flex flex-1 justify-end items-center gap-8">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary dark:hover:text-secondary transition-colors" href="index.html">الرئيسية</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary dark:hover:text-secondary transition-colors" href="about.html">عن الرابطة</a>
+<a class="text-primary dark:text-secondary text-sm font-bold border-b-2 border-primary dark:border-secondary pb-1" href="caravans.html">القوافل</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary dark:hover:text-secondary transition-colors" href="donate.html">التبرعات</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary dark:hover:text-secondary transition-colors" href="contact.html">اتصل بنا</a>
+</nav>
+<div class="flex gap-2">
+    <button id="theme-toggle" class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-background-light dark:bg-background-dark/50 text-text-light dark:text-text-dark gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5 border border-slate-200 dark:border-slate-800 hover:bg-primary/10 transition-colors">
+        <span id="theme-icon" class="material-symbols-outlined text-xl">dark_mode</span>
+    </button>
+    <a href="donate.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold shadow-md hover:bg-primary/90 transition-colors">
+        <span class="truncate">تبرع الآن</span>
+    </a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="px-4 py-5 sm:px-6 lg:px-8">
+<div class="layout-content-container mx-auto flex max-w-7xl flex-col flex-1">
+<div class="@container">
+<div class="p-0 sm:p-4">
+<div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4 text-center shadow-lg" data-alt="A group of aid workers distributing supplies from a truck in a rural area." style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuByK3gK3wEFS8_Ba66QiQLAkv-Q-58g8OuVJ3YSzQi6xXpajfgvyNGNaCD9VK-TVygxL-lqfuxZokm9aKpjfocujmn_wa8fcD99tXio0RXud2HKy6RUWwkozLjiYKbciItGY01GCzv3n5bEEJ5_75k_aTOy6znfX7JlCK41EBiogxkFA4F7lCT-dTsHc9rcS9tGSqFg_t0-TJMvWRQJWj-8dNwdqyFox7VHPd3u7njegyPvqLHdca-UkDAujgvrZIlJ19ARzPNnHMNV");'>
+<div class="flex flex-col gap-2">
+<h1 class="text-white text-4xl font-black leading-tight tracking-tight @[480px]:text-6xl @[480px]:font-black">قوافلنا: رحلات الأمل</h1>
+<h2 class="text-gray-200 text-base font-normal leading-normal @[480px]:text-lg">ادعم قافلتنا القادمة لإيصال المساعدات الشتوية إلى المناطق الأكثر احتياجًا.</h2>
+</div>
+<a href="donate.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-6 bg-primary-light text-primary text-sm font-bold leading-normal tracking-wide @[480px]:text-base @[480px]:font-bold shadow-lg hover:bg-primary/20 transition-transform hover:scale-105">
+<span class="truncate">ادعم قافلة الشتاء</span>
+</a>
+</div>
+</div>
+</div>
+<div class="py-12 px-4 sm:px-0">
+<h2 class="text-text-light dark:text-text-dark text-3xl font-bold leading-tight tracking-tight mb-4">اكتشف قوافلنا</h2>
+<p class="text-gray-600 dark:text-gray-400 max-w-3xl mb-8">
+                        نعمل على تنظيم قوافل إنسانية بشكل دوري للوصول إلى المحتاجين في مختلف المناطق. تصفح قوافلنا القادمة والمكتملة لترى أثر مساهماتكم.
+                    </p>
+<div class="flex gap-3 p-3 flex-wrap pr-4">
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary text-white px-5 shadow-sm">
+<p class="text-sm font-medium leading-normal">الكل</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-background-light dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 text-text-light dark:text-text-dark px-5 transition-colors">
+<p class="text-sm font-medium leading-normal">القادمة</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-full bg-background-light dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 text-text-light dark:text-text-dark px-5 transition-colors">
+<p class="text-sm font-medium leading-normal">المكتملة</p>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-background-dark/50 rounded-xl shadow-md overflow-hidden transition-shadow hover:shadow-xl border border-slate-200 dark:border-slate-800">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Bags of food and supplies ready for distribution." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD_u5pFN-kjyXZjScR2la1mMe8m6_GanhJFJfayMKxgbf7sn7SpkBXdgqnI4MDjMif2aqNdq71uuxb9Fwxt8BWfaQsDBgM4KJaao6gehEYZTDcEJoapMo-tFBJjQgdZ6P3L95sxInBAlZvq3OgqiBXXZK-zxZvTPEUV_R1Ay5wox6MmyOcg0LS-PdElE-n_CT8-jDg2J1D_MbWKJstBf8M-fR6MhTU2bTpLjHu6DO8mCJ0bCX-XCuCvlsLG0aHQtHyFBF8QbdI8ed6g");'></div>
+<span class="absolute top-3 right-3 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">قادمة</span>
+</div>
+<div class="p-4">
+<p class="text-text-light dark:text-text-dark text-lg font-bold leading-normal">قافلة الغذاء للجميع</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">المنطقة الشرقية - يناير 2024</p>
+<a class="text-primary dark:text-secondary text-sm font-bold leading-normal mt-3 inline-block hover:underline" href="#">عرض التفاصيل</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-background-dark/50 rounded-xl shadow-md overflow-hidden transition-shadow hover:shadow-xl border border-slate-200 dark:border-slate-800">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Warm blankets and winter clothing stacked for a convoy." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCzNOCIRsFZQF2kJqAToU_PGGsA5yNILXbL9JUy1IcIMoUbRcSHb3ilDFsa9zW5FY9bZvlVRRL_F34IiJ_dkah-_fzCpO0wDYrLJXy7JIXmlToT7zVDn16r7s6vr7mbRLjQzLIO02K74hnmYe0xcH_T3szkolZyJ78-5fxYMQJK-GkZ_HfM8FfzA99QSJuWtlImaahEpYO8OV765N08YfRJrMpLenHLeiZE7cDzEIqNEa4uDfiOydIKFiPvUX3JjMQkqGHDWt2c4Fty");'></div>
+<span class="absolute top-3 right-3 bg-gray-500 text-white text-xs font-bold px-3 py-1 rounded-full">مكتملة</span>
+</div>
+<div class="p-4">
+<p class="text-text-light dark:text-text-dark text-lg font-bold leading-normal">قافلة الشتاء الدافئ</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">المنطقة الشمالية - نوفمبر 2023</p>
+<a class="text-primary dark:text-secondary text-sm font-bold leading-normal mt-3 inline-block hover:underline" href="#">عرض التفاصيل</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-background-dark/50 rounded-xl shadow-md overflow-hidden transition-shadow hover:shadow-xl border border-slate-200 dark:border-slate-800">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="A medical professional checking a child's health during a health convoy." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwZr2aIcaiNU6TWG-QWJg57eMHuClI0AeKJtDiHChVT3U4r7ZYJuU6WZwRONXByV6Nfrjd2K_jexXeGpkGX8kGlRXvGvsJ0bwwmFUwn8Qbg1GKf8DKJ4eGlGuRoaF8ydSN-tDNj10Jj5PfZtA-eqdDR4b1Fy7kSA1lbvjArC3ul0JrP9F-s3pvKYZyk2kZwqpM0aDCN6ygfsh4j4o_GFWkvs6YMkVgy-Co3fEbPozUswFshOR87HrWfQ1Q9BAa8SbyMXnlG9M40651");'></div>
+<span class="absolute top-3 right-3 bg-gray-500 text-white text-xs font-bold px-3 py-1 rounded-full">مكتملة</span>
+</div>
+<div class="p-4">
+<p class="text-text-light dark:text-text-dark text-lg font-bold leading-normal">قافلة الصحة أولاً</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">المنطقة الجنوبية - سبتمبر 2023</p>
+<a class="text-primary dark:text-secondary text-sm font-bold leading-normal mt-3 inline-block hover:underline" href="#">عرض التفاصيل</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-background-dark/50 rounded-xl shadow-md overflow-hidden transition-shadow hover:shadow-xl border border-slate-200 dark:border-slate-800">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Children receiving new backpacks and school supplies." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDYe1p2jfAy64isZImGYFxEccYvpfdxEmtBEoXnP1e25WtUNkoUfdrllrZbmhQJTieARbDRIZBez1v5pmIhdzA_VJZZhYBWyIS_B1GmsGTMKMptegJE0tOa6zuNoOs0rxINinWyAVwzKYHY0TyKG-sB9yNs-Ktnlva7xlBGyn1QrXD2o_uJbENFbxvMMzAlzslG7XKYT9SAIkIjIqJlH7LlfdqOy2nPk_ywhLYKAjzacgsRs7kkrQxFkJp05ydqEoicAem1Op9IBTtO");'></div>
+<span class="absolute top-3 right-3 bg-gray-500 text-white text-xs font-bold px-3 py-1 rounded-full">مكتملة</span>
+</div>
+<div class="p-4">
+<p class="text-text-light dark:text-text-dark text-lg font-bold leading-normal">قافلة العودة للمدارس</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">المنطقة الوسطى - أغسطس 2023</p>
+<a class="text-primary dark:text-secondary text-sm font-bold leading-normal mt-3 inline-block hover:underline" href="#">عرض التفاصيل</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-background-dark/50 rounded-xl shadow-md overflow-hidden transition-shadow hover:shadow-xl border border-slate-200 dark:border-slate-800">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="An aid convoy truck driving through a desert landscape." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB2xt53OXM4AbWuCIhoYHWTpGEVbg3XsLvvIZ6nPtFgKvvc4NaacPwXjTtNyy3-Hm-HJVY517Cvk73t34qAHCWMchn9lggjVTyw5P7v0MpJVVe2mDN1zyXwzg53azjFxebrDTDwydGY6vEoPB_8yVzTQQL_VZ5gxj_3acG8Z2ENZ1obR4jUt3ST8FcBx_JkIYGx2kdM3hmJop28lPZdGh6FjjOik3ZPs0dwejlU2K7YRzpPrewrkqJeNqAS-p44hVjcfKPAtiklLVpb");'></div>
+<span class="absolute top-3 right-3 bg-gray-500 text-white text-xs font-bold px-3 py-1 rounded-full">مكتملة</span>
+</div>
+<div class="p-4">
+<p class="text-text-light dark:text-text-dark text-lg font-bold leading-normal">قافلة إغاثة الصحراء</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">المناطق الحدودية - يونيو 2023</p>
+<a class="text-primary dark:text-secondary text-sm font-bold leading-normal mt-3 inline-block hover:underline" href="#">عرض التفاصيل</a>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 bg-white dark:bg-background-dark/50 rounded-xl shadow-md overflow-hidden transition-shadow hover:shadow-xl border border-slate-200 dark:border-slate-800">
+<div class="relative">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Temporary shelters in a refugee camp." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCdDPcgoYyALdn0qN7wuBXQY0XI2nOWzUNCpC0oLkNEk71UInJ0d_B-_FPATN-STXGMZTG5cFe7kN3AALYPQxraPn4FPrx7RftvfbIqqNzTRee_gY_afiUYhAVKAOXGchsOP0J7L1WStj7W0nrpzhED4QylXatv4NPg-od-huwuWvVb1tnFO-dfh4H25jwC6lpsLRQ11PTd_2WgkLzQDyBhNUVswnBwwugnFCzObHsA9_tTUvq8ypzyWWaw_6KpbjKI02R_YvAq_jP");'></div>
+<span class="absolute top-3 right-3 bg-secondary text-white text-xs font-bold px-3 py-1 rounded-full">قادمة</span>
+</div>
+<div class="p-4">
+<p class="text-text-light dark:text-text-dark text-lg font-bold leading-normal">قافلة الأمل للمخيمات</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal mt-1">المناطق النائية - فبراير 2024</p>
+<a class="text-primary dark:text-secondary text-sm font-bold leading-normal mt-3 inline-block hover:underline" href="#">عرض التفاصيل</a>
+</div>
+</div>
+</div>
+<div class="bg-primary/10 dark:bg-secondary/10 rounded-xl my-16 p-8 lg:p-12 text-center">
+<h3 class="text-2xl lg:text-3xl font-bold text-primary dark:text-secondary mb-4">كن جزءاً من الأمل</h3>
+<p class="text-text-light dark:text-text-dark max-w-2xl mx-auto mb-8">
+                        مساهمتك، مهما كانت صغيرة، تصنع فرقًا كبيرًا في حياة الكثيرين. ادعم قوافلنا القادمة أو تطوع معنا لنصل إلى من هم في أمس الحاجة إلينا.
+                    </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<a href="donate.html" class="w-full sm:w-auto flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary-light text-primary text-base font-bold shadow-lg hover:bg-primary/20 transition-transform hover:scale-105">
+<span class="truncate">تبرع الآن</span>
+</a>
+<a href="contact.html" class="w-full sm:w-auto flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold shadow-md hover:bg-primary/90 transition-colors">
+<span class="truncate">تطوع معنا</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="w-full mt-12 border-t border-slate-200 dark:border-slate-800 pt-8 pb-4 bg-background-light dark:bg-background-dark/50">
+<div class="flex flex-col md:flex-row justify-between items-center max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 gap-6">
+<div class="text-center md:text-right">
+<p class="text-sm text-slate-500 dark:text-slate-400">© 2024 الرابطة. جميع الحقوق محفوظة.</p>
+<a class="text-sm text-primary hover:underline" href="#">سياسة الخصوصية</a>
+</div>
+<div class="flex items-center gap-4 text-primary dark:text-secondary">
+<div class="size-6">
+<svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2L3 7v10l9 5 9-5V7l-9-5zm0 2.618L19.5 9.5 12 14.382 4.5 9.5 12 4.618zM5 11.91l7 3.889v5.619l-7-3.889v-5.619zm14 0v5.619l-7 3.889v-5.619l7-3.889z"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold text-slate-900 dark:text-white">الرابطة</h2>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const htmlElement = document.documentElement;
+
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        function updateTheme(theme) {
+            if (theme === 'dark') {
+                htmlElement.classList.add('dark');
+                htmlElement.classList.remove('light');
+                themeIcon.textContent = 'light_mode';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                htmlElement.classList.add('light');
+                htmlElement.classList.remove('dark');
+                themeIcon.textContent = 'dark_mode';
+                localStorage.setItem('theme', 'light');
+            }
+        }
+
+        if (savedTheme) {
+            updateTheme(savedTheme);
+        } else if (prefersDark) {
+            updateTheme('dark');
+        } else {
+            updateTheme('light');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            const currentTheme = htmlElement.classList.contains('dark') ? 'dark' : 'light';
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            updateTheme(newTheme);
+        });
+    });
+</script>
+</body>
+</html>
